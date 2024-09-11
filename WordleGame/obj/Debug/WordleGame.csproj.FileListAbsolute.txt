@@ -1,0 +1,7 @@
+C:\OwenVisualStudioProjects\WordleGame\WordleGame\bin\Debug\WordleGame.exe.config
+C:\OwenVisualStudioProjects\WordleGame\WordleGame\bin\Debug\WordleGame.exe
+C:\OwenVisualStudioProjects\WordleGame\WordleGame\bin\Debug\WordleGame.pdb
+C:\OwenVisualStudioProjects\WordleGame\WordleGame\obj\Debug\WordleGame.csproj.AssemblyReference.cache
+C:\OwenVisualStudioProjects\WordleGame\WordleGame\obj\Debug\WordleGame.csproj.CoreCompileInputs.cache
+C:\OwenVisualStudioProjects\WordleGame\WordleGame\obj\Debug\WordleGame.exe
+C:\OwenVisualStudioProjects\WordleGame\WordleGame\obj\Debug\WordleGame.pdb
