@@ -11,6 +11,7 @@ namespace WordleGame
     {
         static void Main(string[] args)
         {
+            //This is an array of all the possible five letter words that can be selected at random.
             string[] words = {
                 "APPLE", "HOUSE", "MOUSE", "TRAIN", "PLANE", "BEACH", "CLOUD", "DREAM",
                 "EARTH", "FLAME", "GRAPE", "HEART", "IVORY", "JELLY", "KNIFE", "LEMON",
@@ -26,24 +27,35 @@ namespace WordleGame
                 "ROAST", "SPICY", "TROUT", "UNZIP", "VAGUE", "WHISK", "YIELD", "ACORN",
                 "BROOM", "CLOWN", "DAISY", "FROST", "GREEN", "HAPPY", "JUMBO", "MELON",
                 "NORTH", "PEACH", "QUICK", "SUNNY", "THUMB", "WAGON", "RUNNY", "CURLY",
-                "TRUCK"
+                "TRUCK", "JUMPY", "SWEET", "PIZZA", "GUMMY", "DEATH", "LIPPY", "QUIFF",
+                "JUKED", "DRAMA", "GOOEY", "ACTOR", "BLACK"
             };
-            Random rnd = new Random();
-            int RandomWordIndex = rnd.Next(0, words.Length);
-            string secretWord = words[RandomWordIndex];
             
+            //This creates a random variable that can be used for the 
+            Random rnd = new Random();
+            //
+            int RandomWordIndex = rnd.Next(0, words.Length);
+            //This picks the word bring used for the game from all the possible options above.
+            string secretWord = words[RandomWordIndex];
+            //This piece of code writes this phrase in the console.
             Console.WriteLine("Guess a five letter word!");
+            //This takes that phrase and makes it all uppercase letters.
             string input = Console.ReadLine().ToUpper();
             
+            //
             if (input.Length != 5)
             {
+                //Lets the player know in the console that the word must have five letters.
                 Console.WriteLine("This Word Doesn't have five letters");
             }
            else
            {
+                //
                 if (input == secretWord)
                 {
+                    //Tells the player in the console they guessed correctly.
                     Console.WriteLine("You got it!");
+               
                 }
                 else
                 {
@@ -61,7 +73,7 @@ namespace WordleGame
                         {
                             Console.Write("X");
                         }
-
+                        //Tells the player to try guessing again.
                         Console.WriteLine("Guess Again");
                    
                     }
@@ -74,7 +86,7 @@ namespace WordleGame
             
            }
           
-            Console.ReadLine();
+            
 
 
 
