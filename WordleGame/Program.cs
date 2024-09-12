@@ -73,7 +73,7 @@ namespace WordleGame
                         {
                             Console.Write("X");
                         }
-                        //Tells the player to try guessing again.
+                        //Tells the player to try guessing again in the console.
                         Console.WriteLine("Guess Again");
                    
                     }
